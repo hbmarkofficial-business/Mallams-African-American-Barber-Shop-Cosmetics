@@ -4,42 +4,37 @@ import { Footer } from '@/components/Footer';
 import { AnimateOnScroll } from '@/components/AnimateOnScroll';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { ChevronRight, MapPin, Phone, Mail, Clock, MessageCircle, Calendar, Search } from 'lucide-react';
+import { ChevronRight, MapPin, Phone, Clock, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Kontakt & Termin | Lord Barbershop Coiffeur</title>
+        <title>Kontakt & Termin | Mallams Barber Shop</title>
         <meta 
           name="description" 
-          content="Kontaktieren Sie Lord Barbershop Coiffeur in Nürnberg. Vereinbaren Sie Ihren Termin über unseren Chatbot oder rufen Sie uns an. Mo-Fr 09-19 Uhr und Sa 09-18 Uhr." 
+          content="Kontaktieren Sie Mallams African American Barber Shop & Cosmetics in Nürnberg. Vereinbaren Sie Ihren Termin über unseren Chatbot oder rufen Sie uns an. Mo-Sa 09:30–20:00 Uhr." 
         />
         <link rel="canonical" href="https://gentlemanscut.de/kontakt" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Barbershop",
-            "@id": "https://example-barbershop.at/#barbershop",
-            "name": "Lord Barbershop Coiffeur",
+            "name": "Mallams African American Barber Shop & Cosmetics",
             "url": "https://gentlemanscut.de",
-            "telephone": "0176 29117689",
+            "telephone": "015255373995",
             "priceRange": "€€",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Äußere Sulzbacher Straße 128",
+              "streetAddress": "Vordere Sterngasse 4 - 6",
               "addressLocality": "Nürnberg",
-              "postalCode": "90491",
+              "postalCode": "90402",
               "addressCountry": "DE"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "49.4486361",
-              "longitude": "11.0782046"
-            },
-            "areaServed": {
-              "@type": "AdministrativeArea",
-              "name": "Nürnberg"
+              "latitude": "49.4483032",
+              "longitude": "11.0015544"
             },
             "openingHoursSpecification": [
               {
@@ -52,8 +47,8 @@ const Contact = () => {
                   "Friday",
                   "Saturday"
                 ],
-                "opens": "09:00",
-                "closes": "19:00"
+                "opens": "09:30",
+                "closes": "20:00"
               }
             ]
           })}
@@ -115,8 +110,8 @@ const Contact = () => {
 
                   <div className="mt-6 pt-6 border-t border-border text-center">
                     <p className="text-muted-foreground text-sm">Oder rufen Sie uns direkt an:</p>
-                    <a href="tel:017629117689" className="text-primary font-semibold hover:underline">
-                      017629117689
+                    <a href="tel:015255373995" className="text-primary font-semibold hover:underline">
+                      015255373995
                     </a>
                   </div>
                 </div>
@@ -131,14 +126,14 @@ const Contact = () => {
 
                   <div className="aspect-video rounded-sm overflow-hidden border border-border">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.0466369434594!2d11.117062376893147!3d49.464733457845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57dec87eba7f%3A0xac674ba124944238!2sLord%20Barbershop%20Coiffeur!5e0!3m2!1sde!2sde!4v1769174581720!5m2!1sde!2sde"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41502.65720082743!2d11.001554448632799!3d49.448303200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f577c3f4c8907%3A0x5bb4689c04641d75!2sMallams%20African%20American%20Barber%20Shop%20%26%20Cosmetics!5e0!3m2!1sde!2sde!4v1769429141016!5m2!1sde!2sde"
                       width="100%"
                       height="100%"
                       style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Standort Lord Barbershop Coiffeur"
+                      title="Standort Mallams African American Barber Shop & Cosmetics"
                     />
                   </div>
                 </div>
@@ -154,6 +149,7 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 
 
